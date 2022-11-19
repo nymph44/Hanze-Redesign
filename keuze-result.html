@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+      <title>Hanze hogeschool | Communication & Multimedia Design</title>
+   </head>
+   <body>
+    <nav class="navbar navbar-expand-sm bg-light" id="miniNav">
+
+    
+      <ul class="navbar-nav ml-auto">
+  
+        <li class="nav-item submen">
+          <a class="nav-link" href="#">
+            Over Hanze
+          </a>
+        </li>
+  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle sub" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">Nederlands</a>
+          <div class="dropdown-menu sub">
+            <a class="dropdown-item" href="#">Nederlands</a>
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">Deutsch</a>
+          </div>
+        </li>
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle sub" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">Hoog contrast</a>
+          <div class="dropdown-menu sub">
+            <a class="dropdown-item" href="#">Hoog contrast</a>
+            <a class="dropdown-item" href="#">Another action</a>
+  
+          </div>
+        </li>
+      </ul>
+    </nav>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./index.html"><img id="hanzeLogoNav"
+          src="https://www.hanze.nl/Style%20Library/Hanze/img/logo_hanze.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  
+        <ul class="navbar-nav mr-auto ml-auto">
+          
+          <li class="dropdown menu ">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studiekeuze<b class="caret"></b></a>
+            <ul class="dropdown-menu multi-column columns-4">
+              <div class="row menu">
+                <div class="col-sm-4 border-right">
+                  <ul class="multi-column-dropdown">
+                    <li><a href="opleidingen.html" class="bi bi-chevron-right">Alle opleidingen</a></li>
+                    <li><a href="planning.html" class="bi bi-chevron-right">Open dagen</a></li>
+                    <li><a href="planning.html" class="bi bi-chevron-right">Meeloopdagen</a></li>
+                    <li><a href="interesse.html" class="bi bi-chevron-right">Interessegebieden</a></li>
+                    <li><a href="studiekeuze.html" class="bi bi-chevron-right">Studiekeuzetest</a></li>
+                    <li><a href="#" class="bi bi-chevron-right">Ervaringen</a></li>
+                    <li><a href="studiekeuze.html" class="bi bi-chevron-right">Studiekeuzegesprek</a></li>
+                    <li class="divider"></li>
+                    <div class="col-sm-4">
+                    <li class="divider"></li>
+                    <li class="divider"></li>
+                    <li class="divider"></li>
+                  </div>
+                  </ul>
+                </div>
+  
+                <div class="col-sm-4 border-right">
+                  <ul class="multi-column-dropdown sub">
+                    <li><a href="#" class="bi bi-chevron-right">Praktische zaken</a></li>
+                    <li><a href="#" class="bi bi-chevron-right">Info voor ouders</a></li>
+                    <li><a href="#" class="bi bi-chevron-right">Collegegeld</a></li>
+                    <li><a href="#" class="bi bi-chevron-right">Aanmeldingseisen</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#" class="bi bi-chevron-right">Studeren met beperking</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#" class="bi bi-chevron-right">Voorzieningen</a></li>
+                    <li><a href="#" class="bi bi-chevron-right">Hulp & begeleiding</a></li>
+  
+                  </ul>
+                </div>
+  
+               
+                <div class="col-sm-4">
+                  <div class="container">
+                    <div class="row ">
+                      <p><b>Zoeken in Studiekeuze</b></p>
+                      <input type="email" class="form-control drop" id="exampleFormControlInput1" placeholder="Zoeken...">
+                      <div class="row button__row">
+                      <div class="col buttons__nav">
+                        <button type="button" class="btn btn-outline-secondary menu">Studiekeuze</button>
+                        <button type="button"  class="btn btn-outline-secondary menu lower">Opleidingen</button>
+                      </div>
+                      <div class="col buttons__nav">
+                        <button type="button" class="btn btn-outline-secondary menu">Interessegebieden</button>
+                        <button type="button" class="btn btn-outline-secondary menu lower">Praktische zaken</button>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <!-- <ul class="multi-column-dropdown">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul> -->
+                </div>
+              </div>
+            </ul>
+        </li>
+  
+        <li class="dropdown menu">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studeren<b class="caret"></b></a>
+          <ul class="dropdown-menu multi-column columns-3">
+            <div class="row menu">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li><a class="bi bi-chevron-right" href="#">Alle opleidingen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Open dagen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Meeloopdagen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Interessegebieden</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Studiekeuzetest</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Ervaringen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Studiekeuzegesprek</a></li>
+                  <li class="divider"></li>
+                  <div class="col-sm-4">
+                  <li class="divider"></li>
+                  <li class="divider"></li>
+                  <li class="divider"></li>
+                </div>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <div class="container">
+                  <div class="row">
+                    <p><b>Zoeken in Studiekeuze</b></p>
+                    <input type="email" class="form-control drop" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <div class="row">
+                    <div class="col">
+                      <button type="button" class="btn btn-outline-secondary menu">Studiekeuze</button>
+                      <button type="button" class="btn btn-outline-secondary menu">Opleidingen</button>
+                    </div>
+                    <div class="col">
+                      <button type="button" class="btn btn-outline-secondary menu">Interessegebieden</button>
+                      <button type="button" class="btn btn-outline-secondary menu">Praktische zaken</button>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                <!-- <ul class="multi-column-dropdown">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul> -->
+              </div>
+            </div>
+          </ul>
+      </li>
+  
+      <li class="dropdown menu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Onderzoek<b class="caret"></b></a>
+        <ul class="dropdown-menu multi-column columns-3">
+          <div class="row menu">
+            <div class="col-sm-4">
+              <ul class="multi-column-dropdown">
+                <li><a class="bi bi-chevron-right" href="#">Alle opleidingen</a></li>
+                <li><a href="#" class="bi bi-chevron-right">Open dagen</a></li>
+                <li><a href="#" class="bi bi-chevron-right">Meeloopdagen</a></li>
+                <li><a href="#" class="bi bi-chevron-right">Interessegebieden</a></li>
+                <li><a href="#" class="bi bi-chevron-right">Studiekeuzetest</a></li>
+                <li><a href="#" class="bi bi-chevron-right">Ervaringen</a></li>
+                <li><a href="#" class="bi bi-chevron-right">Studiekeuzegesprek</a></li>
+                <li class="divider"></li>
+                <div class="col-sm-4">
+                <li class="divider"></li>
+                <li class="divider"></li>
+                <li class="divider"></li>
+              </div>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <ul class="multi-column-dropdown">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <div class="container">
+                <div class="row">
+                  <p><b>Zoeken in Studiekeuze</b></p>
+                  <input type="email" class="form-control drop" id="exampleFormControlInput1" placeholder="name@example.com">
+                  <div class="row">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-secondary menu">Studiekeuze</button>
+                    <button type="button" class="btn btn-outline-secondary menu">Opleidingen</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-secondary menu">Interessegebieden</button>
+                    <button type="button" class="btn btn-outline-secondary menu">Praktische zaken</button>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- <ul class="multi-column-dropdown">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul> -->
+            </div>
+          </div>
+        </ul>
+    </li>
+  
+    <li class="dropdown menu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bedrijven<b class="caret"></b></a>
+      <ul class="dropdown-menu multi-column columns-3">
+        <div class="row menu">
+          <div class="col-sm-4">
+            <ul class="multi-column-dropdown">
+              <li><a class="bi bi-chevron-right" href="#">Alle opleidingen</a></li>
+              <li><a href="#" class="bi bi-chevron-right">Open dagen</a></li>
+              <li><a href="#" class="bi bi-chevron-right">Meeloopdagen</a></li>
+              <li><a href="#" class="bi bi-chevron-right">Interessegebieden</a></li>
+              <li><a href="#" class="bi bi-chevron-right">Studiekeuzetest</a></li>
+              <li><a href="#" class="bi bi-chevron-right">Ervaringen</a></li>
+              <li><a href="#" class="bi bi-chevron-right">Studiekeuzegesprek</a></li>
+              <li class="divider"></li>
+              <div class="col-sm-4">
+              <li class="divider"></li>
+              <li class="divider"></li>
+              <li class="divider"></li>
+            </div>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <ul class="multi-column-dropdown">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <div class="container">
+              <div class="row">
+                <p><b>Zoeken in Studiekeuze</b></p>
+                <input type="email" class="form-control drop" id="exampleFormControlInput1" placeholder="name@example.com">
+                <div class="row">
+                <div class="col">
+                  <button type="button" class="btn btn-outline-secondary menu">Studiekeuze</button>
+                  <button type="button" class="btn btn-outline-secondary menu">Opleidingen</button>
+                </div>
+                <div class="col">
+                  <button type="button" class="btn btn-outline-secondary menu">Interessegebieden</button>
+                  <button type="button" class="btn btn-outline-secondary menu">Praktische zaken</button>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- <ul class="multi-column-dropdown">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul> -->
+          </div>
+        </div>
+      </ul>
+  </li>
+  
+    
+        </ul>
+  
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control-nav mr-sm-2" id="zoekBalkHeader" type="search" placeholder="Zoeken..."
+            aria-label="Search">
+          <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+        </form>
+      </div>
+    </nav>
+
+
+      <section id="onzeOnderscheidingen">
+         <div class="container">
+            <div class="row">
+               <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb" style="background-color: transparent;">
+                     <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                     <li class="breadcrumb-item"><a href="./studiekeuze.html">Studiekeuze</a></li>
+                     <li class="breadcrumb-item"><a href="./opleidingen.html">Alle opleidingen</a></li>
+                     <li class="breadcrumb-item active" aria-current="page">Communicatie & Multimedia Design</li>
+                  </ol>
+               </nav>
+            </div>
+            <div class="row">
+               <div class="col">
+                  <img width="40" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22612%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20612%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_177020fd04a%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A31pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_177020fd04a%22%3E%3Crect%20width%3D%22612%22%20height%3D%22250%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22226.71875%22%20y%3D%22139.0015625%22%3E612x250%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" class="img-fluid" alt="Responsive image">
+                  <p>Voltijd</p>
+               </div>
+               <div class="col">
+                  <img width="40" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22612%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20612%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_177020fd04a%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A31pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_177020fd04a%22%3E%3Crect%20width%3D%22612%22%20height%3D%22250%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22226.71875%22%20y%3D%22139.0015625%22%3E612x250%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" class="img-fluid" alt="Responsive image">
+                  <p>Bachelor</p>
+               </div>
+               <div class="col">
+                  <img width="40" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22612%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20612%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_177020fd04a%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A31pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_177020fd04a%22%3E%3Crect%20width%3D%22612%22%20height%3D%22250%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22226.71875%22%20y%3D%22139.0015625%22%3E612x250%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" class="img-fluid" alt="Responsive image">
+                  <p>September</p>
+               </div>
+               <div class="col">
+                  <img width="40" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22612%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20612%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_177020fd04a%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A31pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_177020fd04a%22%3E%3Crect%20width%3D%22612%22%20height%3D%22250%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22226.71875%22%20y%3D%22139.0015625%22%3E612x250%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" class="img-fluid" alt="Responsive image">
+                  <p>4 jaar</p>
+               </div>
+            </div>
+
+            
+            <div class="row">
+               <div class="col col-md-4">
+                  <div class="col sticky-top" style="top:50px!important;"> 
+                     <h4 class="keuze">Communicatie & Multimedia Design</h4>
+                  <ul class="nav flex-column sticky-top>
+                     <li class="nav-item">
+                        <a class="nav-link active bi bi-chevron-right" href="#">Inhoud</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link bi bi-chevron-right" href="#">Opbouw van de studie</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link bi bi-chevron-right" href="#">Studie in cijfers</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link active bi bi-chevron-right" href="#">Kernvakken</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link bi bi-chevron-right" href="#">Informatie</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link bi bi-chevron-right" href="#">Ervaringen & sfeerbeeld</a>
+                     </li>
+                     <button type="button" class="btn btn-outline-primary">Aanmelden</button>
+                     <button type="button" class="btn btn-outline-primary">Brochure</button>
+                     <ul class="nav flex-column">
+                        <p class="text-muted op">Open dagen & Meeloopdagen</p>
+                        <li class="nav-item">
+                           <a class="nav-link bi bi-chevron-right" href="#">13 Februari open dag</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link bi bi-chevron-right" href="#">16 Februari open avond</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link bi bi-chevron-right" href="#">21 Maart open dag</a>
+                        </li>
+                        <button onclick="window.location.href='planning.html'" type="button" class="btn btn-outline-primary">Meeloopdag</button>
+                     </ul>
+                  </ul>
+                </div>
+               </div>
+
+
+
+               <div class="col col-md-8">
+                  <h2 style="margin-top:20px;">Inhoud</h2>
+                  <p class="text-muted">Online toepassingen en innovatieve gadgets zijn een steeds groter onderdeel van ons leven. Handige apps op je telefoon, virtual reality, de Fitbit die je dagelijkse activiteiten meet, maar ook serious games die bijvoorbeeld revalidatie leuker maken. Binnen de opleiding Communication & Multimedia Design komen al deze onderwerpen aan bod in drie verschillende richtingen (majors): Visual Design, Interaction Design en de internationale major Game Design. Samen vormen deze drie majors de opleiding Communication & Multimedia Design.
+                     Let op: met ingang van september 2021 is de opleiding CMD niet meer opgedeeld in majoren. Er is dan een nieuw programma, bestaande uit onderdelen van voorheen Visual Design en Interaction Design. In februari 2021 hopen we hier het groene licht voor te krijgen en wordt de tekst op de website verder aangepast.
+                     De major Game Design gaat dan verder als de bachelor opleiding Creative Media & Game Technologies.
+                  </p>
+                  <div class="row">
+                      <div class="col">
+                      <h2>Majors</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col col-md-4">
+                           <img class="img-fluid keuze" src="https://elearningindustry.com/wp-content/uploads/2015/09/10-tips-to-improve-your-visual-design-skills-for-non-designers.jpg" class="img-fluid" alt="Responsive image">
+                            <p class="titel-vis">Visual Design<p>
+                                <button type="button" class="btn btn-outline-primary btn-block">Major bekijken</button>
+
+                            </div>
+
+                        <div class="col col-md-4">
+                            <img class="img-fluid keuze" src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/05/Blog_graphic-vs-digital.jpg" class="img-fluid" alt="Responsive image">
+                            <p class="titel-vis">Interaction Design<p>
+                                <button type="button" class="btn btn-outline-primary btn-block">Major bekijken</button>
+                        </div>
+
+                         <div class="col col-md-4">
+                            <img class="img-fluid keuze" src="https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/11/Blog_design_dev.jpg.webp" class="img-fluid" alt="Responsive image">
+                            <p class="titel-vis">Game Design<p>
+                                <button type="button" class="btn btn-outline-primary btn-block">Major bekijken</button> 
+                        </div>
+                     </div>
+                     <hr>
+                     
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h2>Opbouw van de studie</h2>
+                            <p class="text-muted"> Binnen de opleiding Communication & Multimedia Design kun je kiezen uit drie verschillende richtingen (majors): Visual Design, Interaction Design en Game Design. Samen vormen deze drie majors de opleiding Communication & Multimedia Design. Je kiest gelijk bij aanvang van je studie voor een major. Het eerste jaar is voor alle richtingen binnen de opleiding Communication & Multimedia Design grotendeels gelijk. Dat maakt het makkelijk om nog te switchen van richting en zorgt ervoor dat je een goed beeld krijgt van de de hele opleiding en wat je ermee kunt. Na deze vierjarige hbo-opleiding krijg je de graad Bachelor of Science. Je diploma wordt internationaal erkend en geeft je tal van mogelijkheden in binnen- en buitenland.        </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                  <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Jaar 1
+                                      </button>
+                                    </h5>
+                                  </div>
+                              
+                                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        In het gemeenschappelijke eerste jaar maak je kennis met alle richtingen van de opleiding en leg je een brede basis binnen het creatief technologische domein. Je doorloopt de Design Cycle meerdere malen door het doen van projecten en volgt daarnaast ondersteunende vakken, waarbij je onderzoekt wat de gebruiker wil. Vervolgens ga je ideeën uitwerken, ontwerpen en ontwikkelen in digitale prototypes. Dit doe je door bijvoorbeeld HTML/CSS/JavaScript te gebruiken. Bij alles wat je bedenkt staat de gebruiker centraal en leer je het belang van een goed visueel ontwerp. Om door te kunnen stromen naar het tweede jaar moet je in het eerste jaar minimaal 48 van de 60 EC's behalen.                                     </div>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Jaar 2                                      
+                                    </button>
+                                    </h5>
+                                  </div>
+                                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        In het gemeenschappelijke eerste jaar maak je kennis met alle richtingen van de opleiding en leg je een brede basis binnen het creatief technologische domein. Je doorloopt de Design Cycle meerdere malen door het doen van projecten en volgt daarnaast ondersteunende vakken, waarbij je onderzoekt wat de gebruiker wil. Vervolgens ga je ideeën uitwerken, ontwerpen en ontwikkelen in digitale prototypes. Dit doe je door bijvoorbeeld HTML/CSS/JavaScript te gebruiken. Bij alles wat je bedenkt staat de gebruiker centraal en leer je het belang van een goed visueel ontwerp. Om door te kunnen stromen naar het tweede jaar moet je in het eerste jaar minimaal 48 van de 60 EC's behalen. 
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Jaar 3
+                                      </button>
+                                    </h5>
+                                  </div>
+                                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        In het gemeenschappelijke eerste jaar maak je kennis met alle richtingen van de opleiding en leg je een brede basis binnen het creatief technologische domein. Je doorloopt de Design Cycle meerdere malen door het doen van projecten en volgt daarnaast ondersteunende vakken, waarbij je onderzoekt wat de gebruiker wil. Vervolgens ga je ideeën uitwerken, ontwerpen en ontwikkelen in digitale prototypes. Dit doe je door bijvoorbeeld HTML/CSS/JavaScript te gebruiken. Bij alles wat je bedenkt staat de gebruiker centraal en leer je het belang van een goed visueel ontwerp. Om door te kunnen stromen naar het tweede jaar moet je in het eerste jaar minimaal 48 van de 60 EC's behalen. 
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                      <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                          Jaar 4
+                                        </button>
+                                      </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                      <div class="card-body">
+                                          In het gemeenschappelijke eerste jaar maak je kennis met alle richtingen van de opleiding en leg je een brede basis binnen het creatief technologische domein. Je doorloopt de Design Cycle meerdere malen door het doen van projecten en volgt daarnaast ondersteunende vakken, waarbij je onderzoekt wat de gebruiker wil. Vervolgens ga je ideeën uitwerken, ontwerpen en ontwikkelen in digitale prototypes. Dit doe je door bijvoorbeeld HTML/CSS/JavaScript te gebruiken. Bij alles wat je bedenkt staat de gebruiker centraal en leer je het belang van een goed visueel ontwerp. Om door te kunnen stromen naar het tweede jaar moet je in het eerste jaar minimaal 48 van de 60 EC's behalen. 
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col">
+                            <h2>Studie in cijfers</h2>
+                            <img src="https://images.prismic.io/studiekeuze123nl%2F668c6381-507a-400b-873c-1662ff9a7d79_sic+bijsluiter-wo.png?auto=compress,format" class="img-fluid" alt="Responsive image">
+
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top:20px;">
+                        <div class="col">
+                            <h2>Kernvakken</h2>
+                            <div class="row">
+                                <div class="col col-md-4">
+                                    <button type="button" class="btn btn-outline-primary btn-block">Kernvak 1</button>
+                                </div>
+                                <div class="col col-md-4">
+                                    <button type="button" class="btn btn-outline-primary btn-block">Kernvak 2</button>
+                                </div>
+                                <div class="col col-md-4">
+                                    <button type="button" class="btn btn-outline-primary btn-block">Kernvak 3</button>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top:20px; margin-bottom: 20px;">
+                                <div class="col col-md-4">
+                                    <button type="button" class="btn btn-outline-primary btn-block">Kernvak 4</button>
+                                </div>
+                                <div class="col col-md-4">
+                                    <button type="button" class="btn btn-outline-primary btn-block">Kernvak 5</button>
+                                </div>
+                                <div class="col col-md-4">
+                                    <button type="button" class="btn btn-outline-primary btn-block">Kernvak 6</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <h2>Informatie</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-md-6">
+                            <p>Type</p>
+                            <p>Vorm</p>
+                            <p>Duur</p>
+                            <p>Start</p>
+                            <p>Aanmelden voor</p>
+                            <p>Graad</p>
+                            <p>Toelatingseisen</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <p>Contactpersoon</p>
+                        </div>
+                        <div class="col col-md-6">
+                            <p>Bachelor</p>
+                            <p>Voltijd</p>
+                            <p>Vier jaar</p>
+                            <p>September</p>
+                            <p>1 Juni</p>
+                            <p>Bacherlor of Science</p>
+                            <p>VWO</p>
+                            <p>HAVO</p>
+                            <p>MBO</p>
+                            <p>VWO</p>
+                            <p>Jonatrthan van Dezen</p>
+                            <p>(050) 595 25 86</p>
+                            <p>j.van.denzen@pl.hanze.nl</p>
+                        </div>
+                    </div>
+
+                    
+                        
+                          <div class="row">
+                            <div class="col col-md-8">
+                              <h2>Ervaringen</h2>
+                              <p class="ervaringentekst">"Onze games zijn puur softwarematig zodat we zoveel mogelijk mensen kunnen helpen"</p>
+                              <div class="row">
+                                <div class="col col-md-6">
+                                  <p class="ervaringentekstnaam">Henk Jan Pieters</p>
+                                </div>
+                    
+                              </div>
+                            </div>
+                            <div class="col col-md-4">
+                              <img class="fitImage"
+                                src="https://www.chillblast.com/learn/wp-content/uploads/2020/06/female-games-developer.jpg">
+                            </div>
+                            </div>
+                         
+                      
+
+                      <h2>Sfeer</h2>
+                      <div class="row">
+                          <div class="col col-md-6">
+                            <img class="sfeer" src="https://www.uva.nl/binaries/_ht_1539028118280/small/content/gallery/onderwijs/studentensite-algemeen/139738-uva-diversiteit-2-3-12-fred-van-diem-6908.jpg" class="img-fluid" alt="Responsive image">
+                          </div>
+                          <div class="col col-md-6">
+                            <img class="sfeer" src="https://www.kuleuven.be/studentenvoorzieningen/na-je-studie/images/groep-studenten.jpg/download" class="img-fluid" alt="Responsive image">
+                          </div>
+                      </div>
+                      <div class="row">
+                        <div class="col col-md-6">
+                          <img class="sfeer" src="https://www.susa.nl/media/1117/groep.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="col col-md-6">
+                          <img class="sfeer" src="https://www.vad.be/cache/img/da3cc5a135fccffd9913f877f9ac4dd5-iStock-547139858_475.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="col col-md-6">
+                          <button type="button" class="btn btn-outline-primary btn-block">Aanmelden</button>
+                      </div>
+                    </div>
+                </div>
+
+ 
+
+            </div>
+         </div>
+      </section>
+      <hr>
+
+       <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Hanzehogeschool Groningen</h3>
+            <p>
+              Zernikeplein 7 <br>
+              9747 AS Groningen<br><br>
+              <strong>Phone:</strong> (050) 595 55 55<br>
+              <strong>Email:</strong> info@org.hanze.nl<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Direct naar</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right pijltje"></i> <a href="studiekeuze.html">Studiekeuze</a></li>
+              <li><i class="bi bi-chevron-right pijltje"></i> <a href="studiekeuze.html">Studeren</a></li>
+              <li><i class="bi bi-chevron-right pijltje"></i> <a href="#">Onderzoek</a></li>
+              <li><i class="bi bi-chevron-right pijltje"></i> <a href="#">Bedrijven</a></li>
+              <li><i class="bi bi-chevron-right pijltje"></i> <a href="#">Over Hanze Hogeschool</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Direct naar</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Contact</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Cookies</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Disclaimer</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Webredactie</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Volg ons nu op social media!</h4>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3">
+            <img class="img-footer" src="https://www.hanze.nl/Style%20Library/hanze/img/share-your-talent-move-the-world-black.png" alt="">
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+      <!-- Optional JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.5.1.js"
+         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!-- <script src="./js/dynamicSearchBar.js"></script> -->
+   </body>
+</html>

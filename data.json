@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "name": "Academische Opleiding Leraar Basisonderwijs (AOLB)",
+        "degree":"Bachelor, Voltijd",
+        "beschrijving": "Wetensc​ha​​​ppelijk én praktijkgericht. ​Ben je een vwo'er die het inspirerend vindt om aan kinderen les te geven? Ben je geïnteresseerd in wetenschappelijk onderzoek naar effectief leren, organisatie van onderwijs en verschillen tussen kinderen? Dan is de Academische Opleiding Leraar Basisonderwijs iets voor jou.",
+        "afbeelding": "https://www.hanze.nl/assets/pedagogische-academie/PublishingImages/Public/20151120-PABO%20HIGHRES-4.jpg"
+    },
+
+    {
+        "id": 1,
+        "name": "Accountancy",
+        "degree":"Bachelor, Voltijd",
+        "beschrijving": "Heb jij financieel inzicht en ben je communicatief sterk? Ben je nieuwschierig naar het verhaal achter de cijfers? Dan ben jij geschikt voor het accountantsberoep!",
+        "afbeelding": "https://www.hanze.nl/assets/instituut-voor-financieel-economisch-management/PublishingImages/Public/WS-3.jpg"
+    },
+    
+    {
+        "id": 2,
+        "name": "Ad Finance",
+        "degree":"Associate degree, Voltijd",
+        "beschrijving": "De financiële wereld verandert snel. Als professionele ondersteuner in de financiële dienstverlening ben je tegenwoordig niet alleen meer met cijfers bezig, maar werk je veel breder. Je weet wat er speelt in je organisatie en overziet bedrijfsprocessen van het begin tot het einde. Je hebt een stevige financiële basis en combineert dit met een uitstekende kennis op het gebied van IT. Met deze vaardigheden op zak word je een heel aantrekkelijke medewerker voor organisaties. ",
+        "afbeelding": "https://www.hanze.nl/assets/instituut-voor-financieel-economisch-management/PublishingImages/Public/dashboardfotos/Beeldbank%20Martine%20Hoving_00445951.jpg"
+    }
+    
+]

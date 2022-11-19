@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Hanze hogeschool | Studiekeuze</title>
+
+  </head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm bg-light" id="miniNav">
+
+
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item submen">
+        <a class="nav-link" href="#">
+          Over Hanze
+        </a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle sub" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+          aria-expanded="false">Nederlands</a>
+        <div class="dropdown-menu sub">
+          <a class="dropdown-item" href="#">Nederlands</a>
+          <a class="dropdown-item" href="#">English</a>
+          <a class="dropdown-item" href="#">Deutsch</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle sub" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+          aria-expanded="false">Hoog contrast</a>
+        <div class="dropdown-menu sub">
+          <a class="dropdown-item" href="#">Hoog contrast</a>
+          <a class="dropdown-item" href="#">Another action</a>
+
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="./index.html"><img id="hanzeLogoNav"
+        src="https://www.hanze.nl/Style%20Library/Hanze/img/logo_hanze.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav mr-auto ml-auto">
+
+        <li class="dropdown menu ">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studiekeuze<b class="caret"></b></a>
+          <ul class="dropdown-menu multi-column columns-4">
+            <div class="row menu">
+              <div class="col-sm-4 border-right">
+                <ul class="multi-column-dropdown">
+                  <li><a href="opleidingen.html" class="bi bi-chevron-right">Alle opleidingen</a></li>
+                  <li><a href="planning.html" class="bi bi-chevron-right">Open dagen</a></li>
+                  <li><a href="planning.html" class="bi bi-chevron-right">Meeloopdagen</a></li>
+                  <li><a href="interesse.html" class="bi bi-chevron-right">Interessegebieden</a></li>
+                  <li><a href="studiekeuze.html" class="bi bi-chevron-right">Studiekeuzetest</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Ervaringen</a></li>
+                  <li><a href="studiekeuze.html" class="bi bi-chevron-right">Studiekeuzegesprek</a></li>
+                  <li class="divider"></li>
+                  <div class="col-sm-4">
+                    <li class="divider"></li>
+                    <li class="divider"></li>
+                    <li class="divider"></li>
+                  </div>
+                </ul>
+              </div>
+
+              <div class="col-sm-4 border-right">
+                <ul class="multi-column-dropdown sub">
+                  <li><a href="#" class="bi bi-chevron-right">Praktische zaken</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Info voor ouders</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Collegegeld</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Aanmeldingseisen</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#" class="bi bi-chevron-right">Studeren met beperking</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#" class="bi bi-chevron-right">Voorzieningen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Hulp & begeleiding</a></li>
+
+                </ul>
+              </div>
+
+
+              <div class="col-sm-4">
+                <div class="container">
+                  <div class="row ">
+                    <p><b>Zoeken in Studiekeuze</b></p>
+                    <input type="email" class="form-control drop" id="exampleFormControlInput1" placeholder="Zoeken...">
+                    <div class="row button__row">
+                      <div class="col buttons__nav">
+                        <button type="button" class="btn btn-outline-secondary menu">Studiekeuze</button>
+                        <button type="button" class="btn btn-outline-secondary menu lower">Opleidingen</button>
+                      </div>
+                      <div class="col buttons__nav">
+                        <button type="button" class="btn btn-outline-secondary menu">Interessegebieden</button>
+                        <button type="button" class="btn btn-outline-secondary menu lower">Praktische zaken</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <ul class="multi-column-dropdown">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul> -->
+              </div>
+            </div>
+          </ul>
+        </li>
+
+        <li class="dropdown menu">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studeren<b class="caret"></b></a>
+          <ul class="dropdown-menu multi-column columns-3">
+            <div class="row menu">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li><a class="bi bi-chevron-right" href="#">Alle opleidingen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Open dagen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Meeloopdagen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Interessegebieden</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Studiekeuzetest</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Ervaringen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Studiekeuzegesprek</a></li>
+                  <li class="divider"></li>
+                  <div class="col-sm-4">
+                    <li class="divider"></li>
+                    <li class="divider"></li>
+                    <li class="divider"></li>
+                  </div>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <div class="container">
+                  <div class="row">
+                    <p><b>Zoeken in Studiekeuze</b></p>
+                    <input type="email" class="form-control drop" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                    <div class="row">
+                      <div class="col">
+                        <button type="button" class="btn btn-outline-secondary menu">Studiekeuze</button>
+                        <button type="button" class="btn btn-outline-secondary menu">Opleidingen</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-outline-secondary menu">Interessegebieden</button>
+                        <button type="button" class="btn btn-outline-secondary menu">Praktische zaken</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <ul class="multi-column-dropdown">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul> -->
+              </div>
+            </div>
+          </ul>
+        </li>
+
+        <li class="dropdown menu">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Onderzoek<b class="caret"></b></a>
+          <ul class="dropdown-menu multi-column columns-3">
+            <div class="row menu">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li><a class="bi bi-chevron-right" href="#">Alle opleidingen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Open dagen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Meeloopdagen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Interessegebieden</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Studiekeuzetest</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Ervaringen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Studiekeuzegesprek</a></li>
+                  <li class="divider"></li>
+                  <div class="col-sm-4">
+                    <li class="divider"></li>
+                    <li class="divider"></li>
+                    <li class="divider"></li>
+                  </div>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <div class="container">
+                  <div class="row">
+                    <p><b>Zoeken in Studiekeuze</b></p>
+                    <input type="email" class="form-control drop" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                    <div class="row">
+                      <div class="col">
+                        <button type="button" class="btn btn-outline-secondary menu">Studiekeuze</button>
+                        <button type="button" class="btn btn-outline-secondary menu">Opleidingen</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-outline-secondary menu">Interessegebieden</button>
+                        <button type="button" class="btn btn-outline-secondary menu">Praktische zaken</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <ul class="multi-column-dropdown">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul> -->
+              </div>
+            </div>
+          </ul>
+        </li>
+
+        <li class="dropdown menu">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bedrijven<b class="caret"></b></a>
+          <ul class="dropdown-menu multi-column columns-3">
+            <div class="row menu">
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li><a class="bi bi-chevron-right" href="#">Alle opleidingen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Open dagen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Meeloopdagen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Interessegebieden</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Studiekeuzetest</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Ervaringen</a></li>
+                  <li><a href="#" class="bi bi-chevron-right">Studiekeuzegesprek</a></li>
+                  <li class="divider"></li>
+                  <div class="col-sm-4">
+                    <li class="divider"></li>
+                    <li class="divider"></li>
+                    <li class="divider"></li>
+                  </div>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <ul class="multi-column-dropdown">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <div class="container">
+                  <div class="row">
+                    <p><b>Zoeken in Studiekeuze</b></p>
+                    <input type="email" class="form-control drop" id="exampleFormControlInput1"
+                      placeholder="name@example.com">
+                    <div class="row">
+                      <div class="col">
+                        <button type="button" class="btn btn-outline-secondary menu">Studiekeuze</button>
+                        <button type="button" class="btn btn-outline-secondary menu">Opleidingen</button>
+                      </div>
+                      <div class="col">
+                        <button type="button" class="btn btn-outline-secondary menu">Interessegebieden</button>
+                        <button type="button" class="btn btn-outline-secondary menu">Praktische zaken</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <ul class="multi-column-dropdown">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul> -->
+              </div>
+            </div>
+          </ul>
+        </li>
+
+
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control-nav mr-sm-2" id="zoekBalkHeader" type="search" placeholder="Zoeken..."
+          aria-label="Search">
+        <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+      </form>
+    </div>
+  </nav>
+
+
+  <section id="about" style="padding-left:0px;">
+    <div class="container" id="overSchool">
+      <div class="row">
+        <div class="col col-md-8">
+          <h2>Studeren bij de Hanzehogeschool Groningen</h2>
+          <p> Je geniet van het leven. Je gaat naar school, spreekt af met vrienden, hebt misschien wel een bijbaan en
+            probeert ook nog tijd te vinden voor je hobby’s. Je zit in het (een na) laatste jaar van je middelbare
+            school.
+            Tijd om je te verdiepen in een studie. Maar hoe doe je dat? Misschien weet je al wat je wilt of heb je geen
+            idee. Hoever je ook bent, ontdek bij de Hanzehogeschool Groningen de studie die bij jou past.
+            <hr>
+
+            <button onclick="window.location.href='opleidingen.html'" type="button" class="btn btn-dark">Bekijk alle
+              opleidingen</button>
+
+          </p>
+        </div>
+        <div class="col col-md-4">
+          <img class="fitImage" src="/img/pexels-august-de-richelieu-4260325.jpg">
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+
+  <section id="opendagen">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Open dagen & Meeloopdagen</h2>
+          <p>Zit jij in het laatste jaar van je middelbare school of haal je dit jaar een mbo-diploma? Meld je aan voor
+            een online meeloopdag of open dag voor interessante opleidingen</p>
+
+        </div>
+      </div>
+      <div class="row" style="margin-top:20px;">
+        <div class="col">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col col-md-3">
+                  <img
+                    src="https://www.hanze.nl/assets/instituut-voor-communicatie-media-it/PublishingImages/Public/Coverfoto/CMD_coverfoto.jpg?RenditionID=3&Width=800"
+                    width="100" class="img">
+                </div>
+                <div class="col col-md-9">
+                  <p class="opl">Communicatie & Multimedia Design</p>
+                  <p class="opltekst">Lorem ipsum dolor sit amet, consectetuer adipiscing. </p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col col-md-3">
+                  <img
+                    src="https://www.hanze.nl/assets/instituut-voor-financieel-economisch-management/PublishingImages/Public/dashboardfotos/Beeldbank%20Martine%20Hoving_00445951.jpg?RenditionID=3&Width=800"
+                    width="100" class="img">
+                </div>
+                <div class="col col-md-9">
+                  <p class="opl">Economie & Marketing</p>
+                  <p class="opltekst">Lorem ipsum dolor sit amet, consectetuer adipiscing. </p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col col-md-3">
+                  <img
+                    src="https://www.hanze.nl/assets/instituut-voor-life-science-technology/PublishingImages/Public/Chemische%20Technologie%202019%20foto%203.jpg?RenditionID=3&Width=800"
+                    width="100" class="img">
+                </div>
+                <div class="col col-md-9">
+                  <p class="opl">Energie</p>
+                  <p class="opltekst">Lorem ipsum dolor sit amet, consectetuer adipiscing. </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col col-md-3">
+                  <img
+                    src="https://www.hanze.nl/assets/academie-voor-verpleegkunde/PublishingImages/Public/cover/63.jpg?RenditionID=3&Width=800"
+                    width="100" class="img">
+                </div>
+                <div class="col col-md-9">
+                  <p class="opl">Gezondheidszorg</p>
+                  <p class="opltekst">Lorem ipsum dolor sit amet, consectetuer adipiscing. </p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col col-md-3">
+                  <img
+                    src="https://www.hanze.nl/assets/pedagogische-academie/talentontwikkeling-diversiteit/PublishingImages/Public/Brochure%20Master%20TD%201339.jpg?RenditionID=3&Width=800"
+                    width="100" class="img">
+                </div>
+                <div class="col col-md-9">
+                  <p class="opl">Healthy Ageing</p>
+                  <p class="opltekst">Lorem ipsum dolor sit amet, consectetuer adipiscing. </p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action">
+              <div class="row">
+                <div class="col col-md-3">
+                  <img
+                    src="https://www.hanze.nl/assets/academie-minerva/PublishingImages/Public/Fineart.jpg?RenditionID=3&Width=800"
+                    width="100" class="img">
+                </div>
+                <div class="col col-md-9">
+                  <p class="opl">Kunsten</p>
+                  <p class="opltekst">Lorem ipsum dolor sit amet, consectetuer adipiscing. </p>
+                </div>
+              </div>
+            </a>
+
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row opendag">
+        <div class="col col-md-3">
+          <button onclick="window.location.href='/opleidingen.html'" type="button" class="button-interesse">Bekijk alle
+            opleidingen</button>
+        </div>
+        <div class="col col-md-4">
+          <button type="button" class="button-interesse">Meld je aan voor een open dag</button>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="onlineHulp">
+    <div class="container" style="margin-top: 20px;">
+      <h2>(Online) hulp bij je studiekeuze</h2>
+      <div class="row">
+        <div class="col col-md-3">
+          <img
+            src="https://www.hanze.nl/assets/instituut-voor-life-science-technology/PublishingImages/Public/Bio-informatica%202019%20foto%202.jpg?RenditionID=3&Width=800"
+            class="img-fluid hulpimg">
+          <a href="#" class="titel-hulp">Interessegebieden</a>
+          <p class="hulptekst">Bekijk deze voor hulp bij studiekeuze</p>
+        </div>
+
+        <div class="col col-md-3">
+          <img
+            src="https://www.hanze.nl/assets/instituut-voor-financieel-economisch-management/PublishingImages/Public/WS-3.jpg?RenditionID=3&Width=800"
+            class="img-fluid hulpimg">
+          <a href="#" class="titel-hulp">Studiekeuzetest</a>
+          <p class="hulptekst">Bekijk deze voor hulp bij studiekeuze</p>
+        </div>
+
+        <div class="col col-md-3">
+          <img
+            src="https://www.hanze.nl/assets/instituut-voor-financieel-economisch-management/PublishingImages/Public/dashboardfotos/Beeldbank%20Martine%20Hoving_00445951.jpg?RenditionID=3&Width=800"
+            class="img-fluid hulpimg">
+          <a href="#" class="titel-hulp">Ervaringen</a>
+          <p class="hulptekst">Bekijk deze voor hulp bij studiekeuze</p>
+        </div>
+
+        <div class="col col-md-3">
+          <img
+            src="https://www.hanze.nl/assets/instituut-voor-communicatie-media-it/bachelor-communicatie/PublishingImages/Public/IC_p3.jpg?RenditionID=3&Width=800"
+            class="img-fluid hulpimg">
+          <a href="#" class="titel-hulp">Studiekeuzegesprek</a>
+          <p class="hulptekst">Bekijk deze voor hulp bij studiekeuze</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="praktischeZaken">
+    <div class="container" style="margin-top: 20px;">
+      <h2>Praktische zaken</h2>
+      <div class="row">
+        <div class="col col-md-8">
+          <p class="text-m">Als je een vraag hebt over je studiekeuze, kan het geen kwaad om eerst even te kijken in
+            de selectie van veelgestelde vragen. Vaak is het antwoord wel te vinden op onze website. Zo niet, neem dan
+            contact op met Hanze Studiekeuzeadvies. Onze gegevens vind je rechts op deze pagina.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2 prakzak">
+          <button type="button" class="btn btn-dark">Toelating</button>
+        </div>
+
+        <div class="col-md-2 prakzakz">
+          <button type="button" class="btn btn-dark">Info voor ouders</button>
+        </div>
+
+        <div class="col-md-2 prakzaks">
+          <button type="button" class="btn btn-dark">Collegegeld</button>
+        </div>
+
+        <div class="col-md-2 prakzak">
+          <button type="button" class="btn btn-dark">Aanmelden</button>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+
+  <section id="ervaring">
+    <div class="container" id="ervaringContainer">
+      <div class="row">
+        <div class="col col-md-8">
+          <h2>Ervaringen</h2>
+          <p class="ervaringentekst">"Onze games zijn puur softwarematig zodat we zoveel mogelijk <br> kunnen helpen met
+            onze games."</p>
+          <div class="row">
+            <div class="col col-md-6">
+              <p class="ervaringentekstnaam">Henk Jan Pieters</p>
+              <button type="button" id="buttongroot" class="grootervaringen">Bekijk meer ervaringen</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="col col-md-4">
+          <img class="fitImage"
+            src="https://www.chillblast.com/learn/wp-content/uploads/2020/06/female-games-developer.jpg">
+        </div>
+      </div>
+  </section>
+
+  <section id="hanzeHulp">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>Hanze & hulp</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-6">
+
+          <img
+            src="https://www.hanze.nl/assets/instituut-voor-marketing-management/PublishingImages/Public/Coverfoto%27s/CE%20deeltijd.jpg?RenditionID=3&Width=800"
+            width="300" class="img-fluid voorzieningen">
+          <p class="titel-hp">Voorzieningen</p>
+          <p class="text-muted" style="margin-top: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+            tempora, delectus deleniti reprehenderit
+            aliquam ducimus cupiditate similique pariatur optio, sint est rerum repellat vitae ea voluptatum dolorum
+            consequatur vel nobis!</p>
+          <button type="button" class="btn btn-dark">Voorzieningen</button>
+
+        </div>
+        <div class="col col-md-6">
+
+          <img
+            src="https://www.hanze.nl/assets/academie-voor-gezondheidsstudies/bachelor-ergotherapie/PublishingImages/Public/ergo002_6075.jpg?RenditionID=3&Width=800"
+            width="300" class="img-fluid voorzieningen">
+          <p class="titel-hp">Studeren met een beperking</p>
+          <p class="text-muted" style="margin-top: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+            tempora, delectus deleniti reprehenderit
+            aliquam ducimus cupiditate similique pariatur optio, sint est rerum repellat vitae ea voluptatum dolorum
+            consequatur vel nobis!</p>
+          <button type="button" class="btn btn-dark">Voorzieningen</button>
+
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Hanzehogeschool Groningen</h3>
+            <p>
+              Zernikeplein 7 <br>
+              9747 AS Groningen<br><br>
+              <strong>Phone:</strong> (050) 595 55 55<br>
+              <strong>Email:</strong> info@org.hanze.nl<br>
+            </p>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Direct naar</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right pijltje"></i> <a href="studiekeuze.html">Studiekeuze</a></li>
+              <li><i class="bi bi-chevron-right pijltje"></i> <a href="studiekeuze.html">Studeren</a></li>
+              <li><i class="bi bi-chevron-right pijltje"></i> <a href="#">Onderzoek</a></li>
+              <li><i class="bi bi-chevron-right pijltje"></i> <a href="#">Bedrijven</a></li>
+              <li><i class="bi bi-chevron-right pijltje"></i> <a href="#">Over Hanze Hogeschool</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Direct naar</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Contact</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Cookies</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Disclaimer</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Webredactie</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Volg ons nu op social media!</h4>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3">
+            <img class="img-footer"
+              src="https://www.hanze.nl/Style%20Library/hanze/img/share-your-talent-move-the-world-black.png" alt="">
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+    <!-- <script src="./js/dynamicSearchBar.js"></script> -->
+
+</body>
+
+
+</body>
+
+</html>
